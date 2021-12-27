@@ -1,0 +1,22 @@
+ALGORITHM algorithm_name
+VAR
+    i,j:integer
+    t:array_name : ARRAY_OF real [length];
+    n:integer
+BEGIN
+   PROCEDURE tri_insertion(var arr :tab ; n :integer)
+   Var
+    i,j:integer
+    e:integer 
+   FOR i FROM 0 TO n-1 DO
+       j=i
+       e:=arr[i]
+       WHILE (j>=0 & arr[j-1]>e) DO
+       begin
+       arr[j]:=arr[j-1]
+       j:=j-1
+
+   END_FOR
+          END_WHILE
+
+END

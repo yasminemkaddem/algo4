@@ -1,0 +1,18 @@
+ALGORITHM traitement
+VAR
+    set_declarations
+BEGIN
+
+    PROCEDURE tri_insertion(var t :tab ; n :integer)
+  Var
+     i ,k: integer 
+  Begin
+   For i:= 2 to n do
+    Begin
+    k:=i;
+       while (( k > 1 ) and ( t[k] < t[k-1] ) ) do
+         begin
+            permuter(t,k,k-1);
+            k :=k-1;
+       
+END
